@@ -1,0 +1,45 @@
+// Este arquivo contém uma lista das diferentes classes de equipamentos que o "Rebuy" comprará para você.
+// Ele comprará itens com base na última captura do seu equipamento.
+// Modifique este arquivo para se ajustar ao seu estilo de jogo, especialmente se você estiver sem dinheiro.
+
+// Quando o rebuy for usado, os itens serão comprados na seguinte ordem.
+// Modifique a lista conforme necessário.
+
+// Ordem de compra dos equipamentos:
+
+// Arma Primária - Escolha sua arma preferida (ex.: M4A1, AK-47)
+PrimaryWeapon
+    buy m4a1
+    buy ak47
+
+// Munição da Arma Primária - Munição para a arma primária
+PrimaryAmmo
+    buy 90
+
+// Defuse Kit - Sempre compre um kit de desarme, se disponível
+Defuser
+    buy defuser
+
+// Armadura - Sempre compre colete + capacete, se disponível
+Armor
+    buy vesthelm
+
+// Granadas - Modifique isso se você preferir certos tipos de granadas.
+HEGrenade
+    buy hegrenade
+Flashbang
+    buy flashbang
+SmokeGrenade
+    buy smokegrenade
+
+// Arma Secundária - Escolha sua arma secundária preferida (ex.: Desert Eagle)
+SecondaryWeapon
+    buy deagle
+
+// Munição da Arma Secundária - Munição para a arma secundária
+SecondaryAmmo
+    buy 30
+
+// Visão Noturna - Compre óculos de visão noturna, se necessário
+NightVision
+    buy nightvision
